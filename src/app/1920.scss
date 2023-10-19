@@ -1,0 +1,43 @@
+@media (min-width: 1800px) {
+  .Home-Page-Main {
+    .blog-section {
+      display: flex;
+      width: 100px;
+      height: 442px;
+      gap: 400px;
+      margin-left: 335px;
+    }
+
+    .down-container-section {
+      margin: 330px;
+      margin-top: 163px;
+      display: flex;
+      gap: 50px;
+    }
+
+    .post-container {
+      .post-title {
+        margin: 62px;
+        margin-top: -244px;
+        margin-left: 256px;
+      }
+
+      .post-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 123px;
+        justify-content: center;
+      }
+    }
+  }
+
+  .Footer-Main {
+    display: flex;
+    gap: 14px;
+    margin: 39px;
+    margin-left: 245px;
+    top: 50px;
+    position: relative;
+    cursor: pointer;
+  }
+}

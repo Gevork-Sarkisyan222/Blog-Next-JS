@@ -1,0 +1,72 @@
+.Post {
+  width: 384px;
+  height: 444px;
+
+  img {
+    width: 384px;
+    height: 240px;
+  }
+
+  h2 {
+    color: #6941c6;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+  }
+
+  h1 {
+    color: #1a1a1a;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+  }
+
+  p {
+    color: #667085;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  .buttons {
+    display: flex;
+    gap: 28px;
+
+    .first-btn {
+      color: #6941c6;
+      text-align: center;
+      cursor: pointer;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 142.857% */
+      border: none;
+      border-radius: 16px;
+      background: #f9f5ff;
+    }
+
+    .second-btn {
+      color: #363f72;
+      text-align: center;
+      cursor: pointer;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 142.857% */
+      border: none;
+      border-radius: 16px;
+      background: #f9f5ff;
+    }
+  }
+}
